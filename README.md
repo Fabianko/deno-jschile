@@ -1,4 +1,4 @@
-# Guía de instalación y despliegue de la aplicación Deno
+# Guía de instalación y despliegue de la aplicación Deno para la charla de javascript Chile Mayo 2023
 
 ## Instalación de Deno
 
