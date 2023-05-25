@@ -1,6 +1,6 @@
 # Guía de instalación y despliegue de la aplicación Deno para la charla de javascript Chile Mayo 2023
 
-[!img](https://media.licdn.com/dms/image/D5610AQHWvVDmMmVo0Q/image-shrink_800/0/1684344641117?e=1685584800&v=beta&t=tWR8bfaeyQ6PwNhrztB1Cbriaj5JcxvXmP2zYp8iXdo)
+![img](https://media.licdn.com/dms/image/D5610AQHWvVDmMmVo0Q/image-shrink_800/0/1684344641117?e=1685584800&v=beta&t=tWR8bfaeyQ6PwNhrztB1Cbriaj5JcxvXmP2zYp8iXdo)
 ## Instalación de Deno
 
 Deno es compatible con MacOS, Windows y Linux. Aquí está cómo puedes instalarlo:
