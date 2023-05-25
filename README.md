@@ -1,5 +1,6 @@
 # Guía de instalación y despliegue de la aplicación Deno para la charla de javascript Chile Mayo 2023
 
+[!img](https://media.licdn.com/dms/image/D5610AQHWvVDmMmVo0Q/image-shrink_800/0/1684344641117?e=1685584800&v=beta&t=tWR8bfaeyQ6PwNhrztB1Cbriaj5JcxvXmP2zYp8iXdo)
 ## Instalación de Deno
 
 Deno es compatible con MacOS, Windows y Linux. Aquí está cómo puedes instalarlo:
@@ -15,11 +16,26 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 ```powershell
 iwr https://deno.land/x/install/install.ps1 -useb | iex
 ```
+En Windows, puedes agregar Deno a tu ruta del sistema ejecutando el siguiente comando en tu terminal:
+
+```powershell
+$env:Path += ";C:\Users\$env:USERNAME\.deno\bin"
+```
+Para que estos cambios sean permanentes, debes agregar la línea correspondiente a tu archivo de perfil de PowerShell. El archivo exacto varía dependiendo de tu configuración, pero generalmente será `$PROFILE.CurrentUserAllHosts` o `$PROFILE.AllUsersAllHosts`.
+
+Estos comandos añaden el directorio bin de Deno a la ruta del sistema, lo que te permite ejecutar `deno` desde cualquier lugar en tu terminal.
 
 ### Linux
 
 ```bash
 curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+Después de instalar Deno, puedes agregarlo a tu ruta del sistema ejecutando el siguiente comando en tu terminal:
+
+```bash
+echo 'export PATH="/home/$USER/.deno/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 Después de instalar Deno, puedes verificar la instalación ejecutando `deno --version` en tu terminal.
