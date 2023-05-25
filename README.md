@@ -52,3 +52,14 @@ Debes asegurarte de revisar y comprender los permisos que estás otorgando a tu 
 
 Finalmente, tu aplicación Deno debería estar en funcionamiento y lista para usar.
 
+---
+Puedes deployar con docker con los siguientes comandos
+
+```bash
+# Build the Docker image
+docker build -t deno-app -f dev.dockerfile .
+
+# Run the Docker container
+docker run -p 8000:8000 deno-app
+```
+
